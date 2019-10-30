@@ -120,7 +120,7 @@ int main()
 	int e=0;
 	for(int j=0;j<r;j++)
 	{
-		e=e+(P[j]*pow(2,r-1-j));
+		e=e+(P[j]*pow(2,j));
 	}
 	cout<<endl;
 	if(e==0)
